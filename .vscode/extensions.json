@@ -4,5 +4,8 @@
     "ms-dotnettools.csdevkit",
     "EditorConfig.EditorConfig",
     "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "amodio.tsl-problem-matcher",
+    "ms-vscode.extension-test-runner"
   ]
 }
