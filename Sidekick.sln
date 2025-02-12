@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5859036B-0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidekick.Common.Tests", "test\Sidekick.Common.Tests\Sidekick.Common.Tests.csproj", "{CE71A11B-0F87-4D62-977C-847C81827C1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidekick.Administration", "Sidekick.Administration\Sidekick.Administration.csproj", "{AF2E1F2E-88A9-48C4-AC34-6872843CD1CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidekick.Administration", "src\Sidekick.Administration\Sidekick.Administration.csproj", "{AF2E1F2E-88A9-48C4-AC34-6872843CD1CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
