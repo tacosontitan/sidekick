@@ -6,6 +6,18 @@
 public interface ITicketService
 {
     /// <summary>
+    /// Gets a ticket with the specified <paramref name="id"/>.
+    /// </summary>
+    /// <param name="id">The unique identifier of the ticket to get.</param>
+    /// <param name="cancellationToken">A token for cancelling the operation.</param>
+    /// <typeparam name="TTicket">Specifies the type of ticket to get.</typeparam>
+    /// <returns>A task describing the state of the operation and containing the ticket in its result.</returns>
+    public Task<TTicket> GetTicket<TTicket>(
+        Guid id,
+        CancellationToken cancellationToken)
+        where TTicket : ITicket;
+    
+    /// <summary>
     /// Adds a comment to the specified ticket.
     /// </summary>
     /// <param name="ticket">The ticket to add specified <paramref name="comment"/> to.</param>
