@@ -1,6 +1,6 @@
 {
-  "name": "toolbox",
-  "displayName": "toolbox",
+  "name": "hazl.toolbox",
+  "displayName": "Hazel's Toolbox",
   "description": "A collection of dynamic tools for use with day to day development",
   "version": "0.0.1",
   "engines": {
