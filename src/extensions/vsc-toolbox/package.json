@@ -17,7 +17,17 @@
         "command": "toolbox.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Hazel's Toolbox",
+      "properties": {
+        "hazl.toolbox.azure.devops.pat": {
+          "type": [ "string", "null" ],
+          "default": null,
+          "description": "Specifies the personal access token used to interact with Azure DevOps."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
